@@ -1,0 +1,21 @@
+const num = 2;
+for( let i = 0; i < 10; i++){
+console.log(num + "x" + i + " = " + num * i)
+}
+ 
+array.js
+
+const num = []
+console.log(num)
+num.push() //coloca no final
+num.pop()//remove elemento do final
+num.shift()//remove do inicio
+num.unshift()
+
+de um array
+let soma = 0;
+num.forEach(item =>{
+soma += + item
+//console.log(item)
+})
+console.log(soma)
